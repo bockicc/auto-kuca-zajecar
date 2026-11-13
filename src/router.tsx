@@ -7,6 +7,7 @@ export function getRouter() {
     routeTree,
     defaultPreload: "intent",
     scrollRestoration: true,
+    basepath: import.meta.env.BASE_URL.replace(/\/$/, "") || "/",
   });
 }
 

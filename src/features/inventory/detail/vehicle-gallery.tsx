@@ -3,6 +3,7 @@ import * as React from "react";
 
 import { Dialog } from "@/components/ui/dialog";
 import { IconButton } from "@/components/ui/icon-button";
+import { withBasePath } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 import type { VehicleImage } from "@/types";
 
@@ -47,7 +48,7 @@ export function VehicleGallery({ images, title }: VehicleGalleryProps) {
         aria-label="Otvori galeriju slika"
       >
         <img
-          src={current.src}
+          src={withBasePath(current.src)}
           alt={current.alt}
           width={1200}
           height={900}
@@ -75,7 +76,7 @@ export function VehicleGallery({ images, title }: VehicleGalleryProps) {
                 )}
               >
                 <img
-                  src={image.src}
+                  src={withBasePath(image.src)}
                   alt=""
                   width={200}
                   height={150}
@@ -96,7 +97,7 @@ export function VehicleGallery({ images, title }: VehicleGalleryProps) {
       >
         <div className="relative">
           <img
-            src={current.src}
+            src={withBasePath(current.src)}
             alt={current.alt}
             width={1200}
             height={900}

@@ -121,7 +121,7 @@ function AboutPage() {
         <div className="relative min-w-0 overflow-hidden rounded-2xl border border-[#1D6369]/30 bg-gradient-to-br from-[#22252A] to-[#181A1E] p-2 shadow-[0_0_40px_rgba(29,99,105,0.12)]">
           <div className="relative overflow-hidden rounded-xl">
             <img
-              src="/images/hero-dealership.jpg"
+              src={`${import.meta.env.BASE_URL}images/hero-dealership.jpg`}
               alt="Auto kuća Zaječar, izložbeni prostor"
               width={1200}
               height={900}

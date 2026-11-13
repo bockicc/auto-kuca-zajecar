@@ -3,6 +3,7 @@ import { ArrowRight, CalendarDays, Fuel, Gauge, Settings2 } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
+import { withBasePath } from "@/lib/seo";
 import { formatMileage, formatPrice } from "@/lib/utils";
 import type { Vehicle } from "@/types";
 import { FUEL_LABELS, STATUS_LABELS, TRANSMISSION_LABELS } from "@/types";
@@ -32,7 +33,7 @@ export function VehicleCard({ vehicle, priority = false }: VehicleCardProps) {
       <Card className="flex h-full flex-col overflow-hidden rounded-xl border-border/80 bg-surface transition-[border-color,box-shadow,transform] duration-300 group-hover:-translate-y-0.5 group-hover:border-brand/40 group-hover:shadow-overlay">
         <div className="relative aspect-[4/3] overflow-hidden bg-surface-elevated">
           <img
-            src={vehicle.images[0]?.src ?? "/images/vehicles/volkswagen-golf-2019.jpg"}
+            src={withBasePath(vehicle.images[0]?.src ?? "/images/vehicles/volkswagen-golf-2019.jpg")}
             alt={vehicle.images[0]?.alt ?? title}
             width={800}
             height={600}

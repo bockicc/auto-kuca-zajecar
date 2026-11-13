@@ -41,7 +41,7 @@ export function Header() {
             aria-label="Auto kuća Zaječar, početna"
           >
             <img
-              src="/images/autokucazajecarlogo.png"
+              src={`${import.meta.env.BASE_URL}images/autokucazajecarlogo.png`}
               alt="Auto kuća Zaječar"
               width={400}
               height={171}
