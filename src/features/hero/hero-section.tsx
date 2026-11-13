@@ -8,7 +8,7 @@ export function HeroSection() {
   return (
     <section className="relative isolate overflow-hidden border-b border-border bg-background">
       <img
-        src="/images/hero-dealership.jpg"
+        src={`${import.meta.env.BASE_URL}images/hero-dealership.jpg`}
         alt=""
         aria-hidden="true"
         width={1920}
