@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Auto kuća Zaječar — izložbeni prostor</title>
+  <desc id="desc">Ilustracija izložbenog prostora auto kuće sa vozilima ispred.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1b33"/>
+      <stop offset="1" stop-color="#2a4a70"/>
+    </linearGradient>
+    <linearGradient id="building" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0f4f9"/>
+      <stop offset="1" stop-color="#aebdd0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f5d86"/>
+      <stop offset="1" stop-color="#10243c"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7e6" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#fff7e6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="980" cy="180" r="300" fill="url(#sun)"/>
+  <path d="M0 620h1200v280H0z" fill="#0a1627"/>
+  <path d="M0 620h1200" stroke="#3a587e" stroke-width="3"/>
+  <path d="M170 300h860v320H170z" fill="url(#building)"/>
+  <path d="M140 300h920l-70-90H210z" fill="#d7e0eb"/>
+  <rect x="220" y="360" width="330" height="220" rx="8" fill="url(#glass)"/>
+  <rect x="590" y="360" width="200" height="220" rx="8" fill="url(#glass)"/>
+  <rect x="830" y="360" width="150" height="220" rx="8" fill="url(#glass)"/>
+  <path d="M220 470h330M590 470h200M830 470h150" stroke="#6f8bab" stroke-width="4" opacity=".6"/>
+  <rect x="470" y="512" width="120" height="108" fill="#142943"/>
+  <rect x="490" y="532" width="80" height="68" fill="#7fa4c8" opacity=".5"/>
+  <path d="M170 300v320M1030 300v320" stroke="#8fa3ba" stroke-width="8"/>
+  <rect x="300" y="590" width="600" height="18" rx="9" fill="#c8d4e2"/>
+  <path d="M330 580h540" stroke="#e9eff6" stroke-width="3" opacity=".7"/>
+  <path d="M365 650c10-34 36-52 82-58l60-8c26-24 52-36 90-36h54c34 0 62 12 84 36l54 12c34 8 52 26 56 54l2 14H363z" fill="#dce6f1"/>
+  <path d="M508 548h120c24 0 44 8 60 24H476c14-16 20-24 32-24z" fill="#244666"/>
+  <circle cx="450" cy="666" r="42" fill="#0b1628"/>
+  <circle cx="450" cy="666" r="24" fill="#9fb2c9"/>
+  <circle cx="790" cy="666" r="42" fill="#0b1628"/>
+  <circle cx="790" cy="666" r="24" fill="#9fb2c9"/>
+  <path d="M150 740h900" stroke="#274363" stroke-width="2" stroke-dasharray="18 18"/>
+  <text x="72" y="104" fill="#f4f7fb" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="2">AUTO KUĆA ZAJEČAR</text>
+  <text x="72" y="152" fill="#b9c8d9" font-family="Segoe UI, Arial, sans-serif" font-size="24">Više od 15 godina uz vozače iz Zaječara.</text>
+</svg>

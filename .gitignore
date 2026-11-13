@@ -1,0 +1,17 @@
+node_modules
+dist
+.output
+coverage
+test-results
+playwright-report
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.vite
+.vercel
+.netlify
+.idea
+.vscode/*
+!.vscode/extensions.json

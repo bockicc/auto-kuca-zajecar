@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Vozilo — spoljašnjost</title>
+  <desc id="desc">Ilustracija automobila u tamnoplavom izložbenom prostoru.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1b33"/>
+      <stop offset="1" stop-color="#142d4f"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eef6"/>
+      <stop offset="1" stop-color="#9fb2c9"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5d7fa6"/>
+      <stop offset="1" stop-color="#1b3555"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="950" cy="170" r="360" fill="url(#light)"/>
+  <path d="M0 620h1200v180H0z" fill="#081426"/>
+  <path d="M0 620h1200" stroke="#2e4a70" stroke-width="2"/>
+  <ellipse cx="600" cy="636" rx="430" ry="34" fill="#020812" opacity=".55"/>
+  <path d="M270 560c18-58 64-92 142-104l96-14c44-42 86-64 148-64h96c58 0 104 20 142 64l90 20c56 12 88 46 96 98l4 26H266z" fill="url(#body)"/>
+  <path d="M486 382h186c42 0 76 14 104 44H416c22-30 44-44 70-44z" fill="url(#glass)"/>
+  <path d="M700 382h92c34 0 62 14 88 44H700z" fill="url(#glass)" opacity=".85"/>
+  <path d="M270 560h780" stroke="#6d829c" stroke-width="3" opacity=".5"/>
+  <rect x="292" y="512" width="104" height="26" rx="13" fill="#f4d58d"/>
+  <rect x="950" y="512" width="84" height="26" rx="13" fill="#e05a4f"/>
+  <circle cx="420" cy="586" r="76" fill="#0b1628"/>
+  <circle cx="420" cy="586" r="46" fill="#b8c6d8"/>
+  <circle cx="420" cy="586" r="22" fill="#243b5a"/>
+  <circle cx="840" cy="586" r="76" fill="#0b1628"/>
+  <circle cx="840" cy="586" r="46" fill="#b8c6d8"/>
+  <circle cx="840" cy="586" r="22" fill="#243b5a"/>
+  <path d="M590 330l-30 52h86l14-52z" fill="#0b1b33" opacity=".18"/>
+  <text x="72" y="120" fill="#f4f7fb" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="2">AUTO KUĆA ZAJEČAR</text>
+  <text x="72" y="166" fill="#9fb2c9" font-family="Segoe UI, Arial, sans-serif" font-size="22">Proverena vozila. Jasna istorija.</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Vozilo — detalj</title>
+  <desc id="desc">Ilustracija detalja felne i gume.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a182b"/>
+      <stop offset="1" stop-color="#1b3555"/>
+    </linearGradient>
+    <radialGradient id="rim" cx="0.42" cy="0.36" r="0.72">
+      <stop offset="0" stop-color="#f4f7fb"/>
+      <stop offset=".55" stop-color="#b5c4d6"/>
+      <stop offset="1" stop-color="#60738c"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="600" cy="430" r="312" fill="#050b14"/>
+  <circle cx="600" cy="430" r="284" fill="#121f32"/>
+  <circle cx="600" cy="430" r="228" fill="url(#rim)"/>
+  <circle cx="600" cy="430" r="196" fill="#22364f"/>
+  <g fill="url(#rim)">
+    <path d="M600 430L600 234c40 0 78 8 112 22z"/>
+    <path d="M600 430L788 430c0 40-8 78-22 112z"/>
+    <path d="M600 430L600 626c-40 0-78-8-112-22z"/>
+    <path d="M600 430L412 430c0-40 8-78 22-112z"/>
+    <path d="M600 430L736 294c28 28 50 62 62 100z"/>
+    <path d="M600 430L736 566c-28 28-62 50-100 62z"/>
+    <path d="M600 430L464 566c-28-28-50-62-62-100z"/>
+    <path d="M600 430L464 294c28-28 62-50 100-62z"/>
+  </g>
+  <circle cx="600" cy="430" r="74" fill="#0c1727" stroke="#9fb2c9" stroke-width="8"/>
+  <circle cx="600" cy="430" r="22" fill="#9fb2c9"/>
+  <path d="M600 158v-42M600 744v-42M328 430h-42M914 430h-42" stroke="#3d5470" stroke-width="8" stroke-linecap="round"/>
+  <text x="72" y="120" fill="#f4f7fb" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="2">AUTO KUĆA ZAJEČAR</text>
+  <text x="72" y="166" fill="#9fb2c9" font-family="Segoe UI, Arial, sans-serif" font-size="22">Detalji koji govore o brizi.</text>
+</svg>
