@@ -3,11 +3,8 @@ import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import viteReact from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
-const base = process.env.GITHUB_PAGES ? "/auto-kuca-zajecar/" : "/";
-const basepath = process.env.GITHUB_PAGES ? "/auto-kuca-zajecar" : undefined;
-
 export default defineConfig({
-  base,
+  base: "/auto-kuca-zajecar/",
   resolve: {
     tsconfigPaths: true,
   },
@@ -18,7 +15,7 @@ export default defineConfig({
     tailwindcss(),
     tanstackStart({
       router: {
-        ...(basepath ? { basepath } : {}),
+        basepath: "/auto-kuca-zajecar",
       },
       prerender: {
         enabled: false,
